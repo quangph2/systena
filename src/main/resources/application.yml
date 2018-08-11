@@ -1,0 +1,14 @@
+# Spring Core
+spring:
+  profiles:
+    active: develop
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/systena
+    username: root
+    password: 
+
+# Doma2 Reference URL <https://github.com/domaframework/doma-spring-boot>
+doma:
+  dialect: MYSQL
+  sql-file-repository: NO_CACHE
